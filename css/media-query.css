@@ -1,0 +1,157 @@
+
+/* big tablets to smaller  lapton screens*/
+@media only screen and (max-width: 1200px) {
+ html ,
+ body {
+ 	font-size: 14px;
+ }
+ .about-para {
+ 	margin-bottom: 20px ;
+ }
+ .section-heading , 
+ .service-heading,
+ .packages-heading,
+ .sec-heading,
+ .contact-heading { 
+
+ margin-top: 90px; 
+ 
+  }
+}
+
+/* smaller tablets to larger  lapton screens*/
+@media only screen and (max-width: 1023px) {
+	 html ,
+ body {
+ 	font-size: 12px;
+ }
+ .about-box {
+ 	margin-top: 50px;
+ 	padding-left: 2px;
+ }
+ .row {
+ 	padding: 0 2%;
+ }
+ .about-box {
+	margin-top: 60px;
+
+}
+.about-box:firts-child{
+	padding-left: 5%;
+}
+.laptop{
+	padding-right: 5%;
+
+}
+.package-box {
+	width: 100%;
+}
+.header-package {
+	margin-bottom: 25px;
+}
+footer {
+	padding: 30px;
+
+}
+footer p {
+	margin-top: 25px;
+	line-height: 1.3;
+}
+.cont1 {
+	padding-left:0;
+	margin-left: 0;
+	
+}
+.cont2 {
+
+	margin-bottom: 15px;
+
+}
+
+}
+/* larger phone to smaller tablets  screens*/
+@media only screen and (max-width: 767px) {
+		 html ,
+ body {
+ 	font-size: 10spx;
+ }
+ .header-box {
+ 	margin-bottom: 50px;
+
+ }
+ .section-heading,
+  .service-heading,
+ .packages-heading,
+ .sec-heading,
+ .contact-heading {
+ 	margin-top: 60px;
+
+ }
+ .sub-heading {
+ 	margin-bottom: 10px;
+
+ }
+ .sub-heading:after {
+ 	margin: 25px auto 0 auto;
+ }
+.textimolis-heading {
+	margin-bottom: 10px;
+}
+	
+}
+/* smaller to larger  mobile phones*/
+@media only screen and (max-width: 480px) {
+	.laptop {
+		padding: 0;
+		margin: 0 auto;
+	}
+	.about-box:last-child {
+		text-align: center;
+
+	}
+	.about-box:first-child {
+		text-align: center;
+	}
+	.work-portfolio li {
+		width: 50%;
+	}
+	.span_1_of_4 {
+		width: 45%;
+		margin-bottom: 20px;
+	} 
+	.span_1_of_3 {
+		padding: 0 10%;
+		margin-bottom: 5%;
+	}
+	.contact-form {
+
+	width: 100%;
+	
+}
+.contact-label {
+	padding-left: 0;
+}
+.footer-nav , .social-link{
+	float: none;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.service-para {
+	
+	padding-right: 7%;
+}
+.service-heading {
+	margin-top: 10px;
+}
+.parner-logo {
+	width: 80%;
+	height: auto;
+	
+	
+
+} 
+
+
+
+	
+}
